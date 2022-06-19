@@ -55,7 +55,7 @@ export const Head = () => {
                 <a href="https://www.instagram.com/andrewanagu">
                 <span><i className='uil uil-instagram'></i></span>
                 </a>
-                <a href="https://www.linkedin.com/in/chidiebere.anagu-5850b2237">
+                <a href="https://www.linkedin.com/in/chidiebere-anagu-5850b2237">
                <span> <i className='uil uil-linkedin'></i></span>
                 </a>
                 </div>

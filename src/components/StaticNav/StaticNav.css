@@ -1,0 +1,30 @@
+.nav-bottom{
+    display: none;
+    background: rgb(0, 0, 0, 0.4);
+    position: fixed;
+    width: 70%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+.nav-bottom i{
+    margin: 5px auto;
+    padding:8px;
+    color: var(--iconcolor);
+    font-size: 20px;
+    border-radius: 50%;
+}
+.nav-bottom i:hover{
+    background: var(--softblue);
+}
+@media screen and (max-width: 800px) {
+    .nav-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+}

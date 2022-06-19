@@ -1,0 +1,32 @@
+*{
+  font-family: "poppins", sans-serif ;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root{
+  --background: #003D6B;
+  --btncolor:rgb(3, 3, 179);;
+  --iconcolor: rgb(3, 3, 179);
+  --textcolor: black;
+  --headcolor: rgb(138, 4, 201);
+  --aboutcolor: rgb(134, 4, 134);
+  --softblue: rgb(71, 166, 238);
+  --navbar: #003D68;
+  }
+.App {
+  text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--btncolor);
+}
+button a{
+    padding: 30px; 
+}
+line{
+  width: 10%;
+  background: red;
+}

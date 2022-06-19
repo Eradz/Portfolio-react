@@ -1,0 +1,35 @@
+.test{
+    width:80%;
+    margin: 50px auto;
+    
+}
+.test-row{
+    display: flex;
+    gap: 20px;
+}
+
+
+.testbox-img1, .testbox-img2, .testbox-img3, .testbox-img4{
+    background-image: url(../../../public/avatar3.jpg);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid var(--softblue);
+    margin: 0 auto;
+}
+.testbox-img4{
+    background-image: url(../../../public/avatar4.jpg);
+    
+}
+.testbox-img1{
+    background-image: url(../../../public/avatar1.jpg);
+    
+}
+.testbox-img2{
+    background-image: url(../../../public/avatar2.jpg);
+   
+}
+.testbox{
+    padding: 20px;;
+}

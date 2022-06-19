@@ -1,0 +1,71 @@
+j{
+    color: var(--iconcolor);
+}
+.about{
+  background-image: url('../../assets/waves\ \(2\).jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+  
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 100px;
+    text-align: left;
+    margin: 0px auto;
+    line-height: 1.5rem;
+    
+}
+.image3{
+    background-image: url(../../../public/me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+    height: 100vh;
+}
+.about-row p{
+    margin: 20px auto;
+}
+.about-text{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+}
+.about-right{
+    margin-top: 50px;
+}
+@media screen and (max-width: 900px) {
+    .about-row{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+        line-height: 1.2rem;
+    }
+    .image3{
+        width: 400px;
+        height: 500px;
+        padding-right: 50px;
+  }
+    .about-right{
+        margin-top: -80px;
+    }
+    .about{
+        background-image: url('../../assets/waves\ \(3\).jpg');
+        background-size: cover;
+        background-position: center;
+        
+      }
+      .about-text{
+          grid-template-columns: 1fr;
+          gap:5px;
+      }
+     h1{
+         font-size:larger ;
+     }
+
+     }

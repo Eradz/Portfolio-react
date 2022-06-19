@@ -1,0 +1,86 @@
+.contact{
+    display: flex;
+    gap:10%;
+   justify-content: center;
+   align-items: center;
+   color: white ;
+}
+.contact-box{
+    padding: 5px;
+    background: var(--navbar);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0;
+}
+.contact-box:hover{
+    background: rgb(71, 166, 238,0.5);
+}
+.contact-box:hover a{
+    color: black;
+}
+
+.contact-box i{
+    font-size: 1.5rem;
+}
+.contact-box p{
+    font-size: 0.8rem;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:50%;
+}
+.names{
+    display: flex;
+    gap:10px;
+    width:100%;
+}
+.contact-right input , textarea{
+    padding: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btnbtn{
+    width: 95%;
+    
+}
+@media screen and (max-width: 900px) {
+    .contacts{
+        box-shadow: 0 0 4px 0;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }  
+    .names{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    } 
+    .contact-right{
+        padding-top: 20px;
+        width: 80%;
+    }
+    .contact-left{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .contact-box p{
+        font-size: 1rem;
+    }
+    .btn{
+        width:70%;
+        margin: 0 auto;
+    }
+  
+}

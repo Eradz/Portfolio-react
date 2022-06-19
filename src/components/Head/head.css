@@ -1,0 +1,102 @@
+:root{
+    --background: white;
+    --btncolor:rgb(3, 3, 179);;
+    --iconcolor: #0085EB;
+    --textcolor: black;
+    --headcolor: rgb(138, 4, 201);
+    --aboutcolor: rgb(134, 4, 134); 
+   
+}
+.header{
+    margin: 100px auto;
+    background: var(--header);
+    position: relative;
+    overflow: hidden;
+}
+.headd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+a{
+    color:white;
+}
+w{
+    color: var(--iconcolor);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 0 0 var(--softblue);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.img{
+    margin: 0 auto;
+    height: 92%;
+    width: 92%;
+    background-image: url("../../assets/head.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+.img:hover{
+    transform: scale(1.075);
+    transition: 0.5s ease-in;
+}
+.icons{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    display: flex;
+    gap: 20px;
+    
+}
+.icons i{
+    color: var(--iconcolor);
+    font-size: 30px;
+}
+.typical{
+    font-size: 30px;
+    font-family: "poppins bold";
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 900px) {
+    .headd{
+        flex-direction: column;
+    }
+   
+  .icons{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 10%;
+    gap: 5px;
+  }
+  .icons i{
+    font-size: 17px;
+}
+.img-container{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.img{
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    background-image: url("../../assets/head.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+}

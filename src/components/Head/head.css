@@ -12,6 +12,7 @@
     background: var(--header);
     position: relative;
     overflow: hidden;
+    height: 80vh;
 }
 .headd{
     display: flex;
@@ -69,6 +70,9 @@ w{
 }
 
 @media screen and (max-width: 900px) {
+    .header{
+        height: max-content;
+    }
     .headd{
         flex-direction: column;
     }

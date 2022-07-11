@@ -60,5 +60,9 @@
     .project-row:nth-child(4){
         display: none;
     }
+    .project-box{
+        border: 0px;
+        box-shadow: 0 0 4px 0;
+    }
     
 }

@@ -10,14 +10,14 @@
     background: var(--navbar);
     border-radius: 20px;
     box-shadow: 0 0 5px 0;
+    transition: 0.5s ease-in-out;
 }
 .contact-box:hover{
-    background: rgb(71, 166, 238,0.5);
+    transform: scale(1.07);
 }
 .contact-box:hover a{
     color: black;
 }
-
 .contact-box i{
     font-size: 1.5rem;
 }
@@ -45,10 +45,20 @@
 }
 .btn:hover{
     cursor: pointer;
+    background: transparent;
+    color: black;
+    box-shadow: 0 0 4px 0;
+}
+.btn{
+    color: white;
+    margin-bottom: 10px;
 }
 .btnbtn{
     width: 95%;
-    
+}
+.btnbtn:hover{
+    background-color: whitesmoke;
+    border: 0 0 4px 0;
 }
 @media screen and (max-width: 900px) {
     .contacts{
@@ -78,9 +88,12 @@
     .contact-box p{
         font-size: 1rem;
     }
+    .btnbtn{
+        width: 70%;
+        text-align: center; 
+    }
     .btn{
         width:70%;
         margin: 0 auto;
     }
-  
 }

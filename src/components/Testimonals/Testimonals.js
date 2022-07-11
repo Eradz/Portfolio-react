@@ -37,10 +37,10 @@ export const Testimonals = () => {
                   <div className='testbox-img1'>
                             {/* <img src="avatar1.jpg" alt='person'/> */}
                             </div>
-                            <h2>Ryan <j>Zyan</j></h2>
+                            <h2>Ori <j>Richman</j></h2>
                             <h3>Fellow Web-Developer</h3>
                             <p>My experience working with Chidi has always been a smooth and positive one.
-                                i always recieve quality service from him. I high;y recommending him because he is the absolute best. </p>
+                                i always recieve quality service from him. I highly recommend him because he is the absolute best. </p>
                     </SwiperSlide>
                     <SwiperSlide className="testbox">
                       <div className='testbox-img2'>
@@ -49,7 +49,7 @@ export const Testimonals = () => {
                         <h2>Edeh <j>Johnpaul</j></h2>
                         <h3>Fellow Web-Developer</h3>
                         <p>My experience working with Chidi has always been a smooth and positive one.
-                            i always recieve quality service from him. I high;y recommending him because he is the absolute best. </p>
+                            i always recieve quality service from him. I highly recommend him because he is the absolute best. </p>
                 </SwiperSlide>
                 <SwiperSlide className="testbox">
                   <div className='testbox-img3'>
@@ -58,7 +58,7 @@ export const Testimonals = () => {
                     <h2>Ugwu <j>Ferdinard</j></h2>
                     <h3>Fellow Web-Developer</h3>
                     <p>My experience working with Chidi has always been a smooth and positive one.
-                        i always recieve quality service from him. I high;y recommending him because he is the absolute best. </p>
+                        i always recieve quality service from him. I highly recommend him because he is the absolute best. </p>
             </SwiperSlide>
             <SwiperSlide className="testbox">
               <div className='testbox-img4'>
@@ -67,7 +67,7 @@ export const Testimonals = () => {
                 <h2>Eradz <j>Joel</j></h2>
                 <h3>Fellow Web-Developer</h3>
                 <p>My experience working with Chidi has always been a smooth and positive one.
-                    i always recieve quality service from him. I high;y recommending him because he is the absolute best. </p>
+                    i always recieve quality service from him. I highly recommend him because he is the absolute best. </p>
             </SwiperSlide>
        </Swiper>
 

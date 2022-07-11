@@ -32,7 +32,7 @@ w{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 0 0 var(--softblue);
+    box-shadow: 0 3px 0 0 var(--iconcolor);
     border-radius: 50%;
     height: 380px;
     width: 380px;

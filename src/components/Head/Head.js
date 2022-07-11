@@ -49,7 +49,7 @@ export const Head = () => {
                 <a href="https://wa.me/2348135188556">
                 <span> <i className='uil uil-whatsapp'></i></span>
                 </a>
-                <a href="https://twitter.com/snsnjsis?t=a6Bs77rslQMcZIZktzU4UA&s=09">
+                <a href="https://twitter.com/anaguchidi35?t=a6Bs77rslQMcZIZktzU4UA&s=09">
                 <span> <i className='uil uil-twitter'></i></span>
                 </a>
                 <a href="https://www.instagram.com/andrewanagu">

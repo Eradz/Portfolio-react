@@ -8,7 +8,7 @@ export const Navigation = () => {
   
   return (
     <header >
-          <h1>ANDREW</h1>
+          <h1><a href='#home'>ANDREW</a></h1>
               <nav>
                 <ul className={click ? 'nav-menu nav-active' : 'nav-menu'}>
                   <li><a href='#home'>HOME</a></li>
@@ -19,7 +19,7 @@ export const Navigation = () => {
                 </ul>
               </nav>
                   <div onClick={toggle} className='nav-btns'>
-                 { click ?  <FaTimes/>: <FaBars/>}
+                 { click ?  <FaTimes color='white'/>: <FaBars color='white'/>}
                   </div>
           
     </header>

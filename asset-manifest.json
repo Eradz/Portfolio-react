@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-react/static/css/main.62ec01b8.css",
-    "main.js": "/Portfolio-react/static/js/main.ce9c4732.js",
+    "main.js": "/Portfolio-react/static/js/main.95f18ead.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Portfolio-react/static/js/787.c4e7f8f9.chunk.js",
     "static/media/waves (3).jpg": "/Portfolio-react/static/media/waves (3).bf47c3b18db67d5c5c39.jpg",
     "static/media/head.png": "/Portfolio-react/static/media/head.62d71dd82b604c1e500f.png",
@@ -12,14 +12,15 @@
     "static/media/project2.png": "/Portfolio-react/static/media/project2.803110a2b3e09d44a07c.png",
     "static/media/project.png": "/Portfolio-react/static/media/project.4584bb8fd17c15f7803a.png",
     "static/media/project1.png": "/Portfolio-react/static/media/project1.3a37fdca1bf065d4e640.png",
+    "static/media/Andrew Chidi Resume.pdf": "/Portfolio-react/static/media/Andrew Chidi Resume.59b708ee4100610818bb.pdf",
     "static/media/project4.png": "/Portfolio-react/static/media/project4.23751fe8dce384f339f0.png",
     "index.html": "/Portfolio-react/index.html",
     "main.62ec01b8.css.map": "/Portfolio-react/static/css/main.62ec01b8.css.map",
-    "main.ce9c4732.js.map": "/Portfolio-react/static/js/main.ce9c4732.js.map",
+    "main.95f18ead.js.map": "/Portfolio-react/static/js/main.95f18ead.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Portfolio-react/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62ec01b8.css",
-    "static/js/main.ce9c4732.js"
+    "static/js/main.95f18ead.js"
   ]
 }
